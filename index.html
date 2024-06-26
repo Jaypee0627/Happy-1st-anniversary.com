@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anniversary Scrapbook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Our First Anniversary</h1>
+            <p>A journey through our beautiful moments together💕</p>
+        </header>
+         <section class="audio-section">
+            <p><b><i>👉tap to play music while scrolling</i></b>👈</p>
+            <audio controls>
+                <source src="a.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section class="photo-section">
+            <h2>💕I Love You💕</h2>
+            <img src="1.jpg" alt="ily" class="photo">
+            <p>Remembering the day with you. It was a magical moment!💚</p>
+        </section>
+
+        <section class="photo-section">
+            <h2>Spending Time Together</h2>
+            <img src="2.jpg" alt="Spending time together" class="photo">
+            <p>Every moment spent with you is like a beautiful dream come true.💙</p>
+        </section>
+
+        <section class="view-photos-section">
+            <p>click here...👇</p>
+            <button onclick="toggleAllPhotos()">See All Photos</button>
+            <div id="all-photos" class="hidden">
+                <h2>For keeps❤️</h2>
+                <img src="3.jpg" alt="ily" class="photo">
+                <p>Forever my favorite💕 </p>
+                <img src="4.jpg" alt="Spending time together" class="photo">
+                <p>Love you always❤️</p>
+                <img src="6.jpg" alt="Spending time together" class="photo">
+                <p>Together is my favorite place 🥰</p>
+                <img src="7.jpg" alt="Spending time together" class="photo">
+                <p>My heart is full with you😘</p>
+                <img src="8.jpg" alt="Spending time together" class="photo">
+                <p>Every moment with you is a treasure 💕</p>
+                <img src="9.jpg" alt="Spending time together" class="photo">
+                <p>You make my heart smile ☺️</p>
+                <img src="10.jpg" alt="Spending time together" class="photo">
+                <p>Creating beautiful memories together 🥰</p>
+                <img src="11.jpg" alt="Spending time together" class="photo">
+                <p>My partner in everything 💕</p>
+            </div>
+        </section>
+
+        <section class="videos-section">
+            <h2>Videos</h2>
+            <p>naisingit pa nga 🙁</p>
+            <video controls class="video">
+                <source src="13.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video controls class="video">
+                <source src="14.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            
+        </section>
+        <hr>
+        <p>click here...👇</p>
+        <p id="sd">scroll-down👇</p>
+        <button id="letter">Show message</button>
+       
+        <section class="love-text-section">
+            <h2>My Love Letter</h2>
+            <p id="love-text">Dear Mahal,</p>
+            <p>From the moment we met, I knew there was something uniquely special about you. Your smile, your laughter, and the way you look at the world have brought an immense amount of joy into my life. Over the past year, we've created countless memories—each one a precious reminder of how lucky I am to have you by my side.
+            <br> <br>
+                Thank you for being my partner, my best friend, and my true love. Happy anniversary, my love. Here's to many more years of love, laughter, and unforgettable moments.Forever and always,</p>
+            <p>Your love 💕</p>
+        </section>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
